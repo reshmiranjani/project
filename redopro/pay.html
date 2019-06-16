@@ -1,0 +1,132 @@
+<!DOCTYPEHTML>
+<html>
+<head>
+<title>PAYMENT</title>
+ <link rel="stylesheet" href="style.css">
+        
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+        
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js" ></script>
+        
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+		
+        
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css" ></script>
+        
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.0/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+		<script src="store.js"></script>
+</head>
+<body>
+<nav class="navbar navbar-color navbar-fixed-top">
+
+    
+    <div class="navbar-header">
+        
+     <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+    </button>
+    
+   <a href="#" class="navbar-brand">
+  
+       <h4>
+           <span class="glyphicon glyphicon-shopping-cart nav-text">
+          
+           <strong> <b>Shop Zone</b></strong> 
+		    </span>
+       </h4>
+    </a>
+ 
+ </div>
+    
+   <div id="myNavbar" class="collapse navbar-collapse">
+    <ul class="nav navbar-nav">
+      <li><a href="index.html"><i class="glyphicon glyphicon-home nav-text "><strong> HOME</strong></i></a></li>
+      <li><a href="contact.html"><i class="glyphicon glyphicon-earphone nav-text"><strong> CONTACT</strong></i></a></li>
+      <li><a href="f1.html"><i class="glyphicon glyphicon-comment nav-text"><strong> FEEDBACK</strong></i></a></li>
+    </ul>
+      
+    <ul class="nav navbar-nav navbar-right">
+      <li ><a href="#" ><span class="glyphicon glyphicon-user nav-text"> Sign Up</span></a></li>
+      <li><a href="#"><span class="glyphicon glyphicon-log-in nav-text" class=" nav-text">Login</span> </a></li>
+    </ul>
+       
+    <form class="navbar-form navbar-right" action="#">
+      <div class="input-group">
+        <input type="text" class="form-control" placeholder="Search" name="search">
+        <div class="input-group-btn">
+          <button class="btn btn-default" type="submit">
+            <i class="glyphicon glyphicon-search"></i>
+          </button>
+        </div>
+      </div>
+    </form>
+
+    </div>
+
+  </nav>
+
+
+
+
+<div class="wrapper">
+    <div class="container">
+        <form action="">
+            <h1>
+                <i class="fas fa-shipping-fast"></i>
+                Shipping Details
+            </h1>
+			<br>
+            <div class="name">
+                <div>
+                    <label for="f-name">Username</label>
+                    <input type="text" name="f-name">
+                </div>
+                
+            </div>
+            <div class="street">
+                <label for="name">Street</label>
+                <input type="text" name="address">
+            </div>
+            <div class="address-info">
+                <div>
+                    <label for="city">City</label>
+                    <input type="text" name="city">
+                </div>
+                <div>
+                    <label for="state">State</label>
+                    <input type="text" name="state">
+                </div>
+                
+				
+            </div>
+            <h1>
+                <i class="far fa-credit-card"></i> Payment Information
+            </h1>
+			<br>
+            <div class="cc-num">
+                <label for="card-num">Credit Card No.</label>
+                <input type="text" name="card-num">
+            </div>
+            <div class="cc-info">
+                <div>
+                    <label for="card-num">Exp</label>
+                    <input type="text" name="expire">
+                </div>
+                <div>
+                    <label for="card-num">CCV</label>
+                    <input type="text" name="security">
+                </div>
+            </div>
+			<br>
+            <div class="btns">
+                <a href="index.html"><button  onclick="call()">Purchase</button>
+                <button><a href="index.html">Back to cart</a></button>
+            </div>
+        </form>
+    </div>
+</div>
+</body>
+</html>
